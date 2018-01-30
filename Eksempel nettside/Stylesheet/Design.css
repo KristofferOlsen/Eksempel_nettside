@@ -1,0 +1,86 @@
+/* General */
+
+body {
+    background-color: whitesmoke;
+}
+
+div.PaCo { /* Page Content */
+    left: 0px;
+    right: 0px;
+    align-content: center;
+    text-align: center;
+    position: absolute;
+    font-family: sans-serif, arial;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+@font-face {
+    font-family: torque;
+    src: url(../Font/TorqueSense.otf);
+}
+
+h1#Intro {
+    padding: 30px;
+    font-family: torque;
+    font-size: 75px;
+}
+
+div.SelectionTab {
+    background: black;
+    padding: 10px;
+    
+}
+
+table.GridArea1 {
+    margin: auto;
+}
+
+td#GridSector1 { /* Tallene er i tilfelle andre f.eks Sektorer skal bli opprettet som skal være annerledes. */
+    padding: 30px;
+    border: 5px solid whitesmoke;
+    border-radius: 10px;
+    font-size: 45px;
+    width: 200px;
+    background-color: whitesmoke;
+}
+
+@keyframes changecolor {
+    0% {background-color: whitesmoke;
+    border-color: whitesmoke;}
+    100% {background-color: aqua;
+    border-color: aqua;}
+}
+
+td#GridSector1:hover {
+    animation-name: changecolor;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    background-color: aqua;
+    border: 5px solid aqua;
+}
+
+td#GridSector1: {
+    background-color: aqua;
+    border: 5px solid aqua;
+}
+
+td#GridSpace1 {
+    padding: 10px;
+}
+
+div.CoSe { /* Content Section */
+    margin: 0px 0px;
+    padding: 100px 10px;
+}
+
+h1#DescriptionTitle {
+    font-size: 40px
+}
+
+p#Description {
+    font-size: 25px
+}
